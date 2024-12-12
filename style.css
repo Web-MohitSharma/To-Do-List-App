@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(44, 28, 189), rgb(226, 75, 100));
+}
+
+.container {
+    background-color: white;
+    width: 90%;
+    margin: 100px auto 20px;
+    padding: 20px 25px 15px 25px;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.to_do {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.to_do img {
+    width: 8%;
+    margin-left: 5px;
+}
+
+.container h2 {
+    padding: 10px 0px;
+    margin-left: 8px;
+}
+
+.search_input input {
+    height: 40px;
+    border: none;
+    background-color: rgba(228, 230, 231, 0.836);
+    border-radius: 40px;
+    padding: 0 25px;
+    width: 80%;
+    font-size: .9rem;
+    margin-bottom: 25px;
+}
+
+.search_input button {
+    height: 40px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #ff5945;
+    color: #fff;
+}
+
+.search_input button:active {
+    margin-top: 2px;
+}
+
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    border-radius: 10px;
+    list-style: none;
+    padding: 10px 20px;
+    margin: 5px 0px;
+    text-align: justify;
+}
+
+ul li span {
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 50%;
+    margin-left: 12px;
+}
+
+ul li span:hover {
+    background: red;
+    cursor: pointer;
+    color: #fff;
+}
+
+.footer_name {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+}
